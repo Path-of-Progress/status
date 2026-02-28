@@ -4,29 +4,24 @@ repo: status
 sites:
   - name: Path of Progress
     url: https://app.pathofprogress.ca/api/health
-    headers:
-      - "User-Agent: Mozilla/5.0 (compatible; PathOfProgress-StatusMonitor/1.0; +https://path-of-progress.github.io/status)"
     expectedStatusCodes:
       - 200
-    verbose: true
   - name: Website
     url: https://www.pathofprogress.ca
-    headers:
-      - "User-Agent: Mozilla/5.0 (compatible; PathOfProgress-StatusMonitor/1.0; +https://path-of-progress.github.io/status)"
     expectedStatusCodes:
       - 200
       - 301
-    verbose: true
 
 status-website:
   baseUrl: /status
-  logoUrl: https://raw.githubusercontent.com/Path-of-Progress/status/master/assets/favicon.ico
+  logoUrl: https://raw.githubusercontent.com/Path-of-Progress/status/master/assets/logo.png
   favicon: https://raw.githubusercontent.com/Path-of-Progress/status/master/assets/favicon.ico
   name: Path of Progress Status
+  theme: https://raw.githubusercontent.com/Path-of-Progress/status/master/assets/theme.css
   introTitle: "**Path of Progress** service status"
-  introMessage: Real-time uptime monitoring powered by [Upptime](https://github.com/upptime/upptime). If you're experiencing issues, check below for current status.
+  introMessage: Real-time service monitoring. If you're experiencing issues, check below for current status.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: App
+      href: https://app.pathofprogress.ca

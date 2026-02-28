@@ -4,7 +4,8 @@ repo: status
 sites:
   - name: Path of Progress
     url: https://app.pathofprogress.ca
-  - name: API
+    icon: https://app.pathofprogress.ca/favicon.ico
+  - name: API Health
     url: https://app.pathofprogress.ca/api/health
     expectedStatusCodes:
       - 200
@@ -12,11 +13,26 @@ sites:
 status-website:
   baseUrl: /status
   logoUrl: https://app.pathofprogress.ca/favicon.ico
-  name: Path of Progress Status
+  favicon: https://app.pathofprogress.ca/favicon.ico
+  name: Path of Progress
+  theme: night
   introTitle: "**Path of Progress** service status"
-  introMessage: Real-time uptime monitoring powered by [Upptime](https://github.com/upptime/upptime). If you're experiencing issues, check below for current status.
+  introMessage: Real-time uptime monitoring for Path of Progress. If you're experiencing issues, check below for current service status and incident history.
   navbar:
     - title: Status
       href: /
+    - title: Incidents
+      href: /history
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: Current Incidents
+  pastIncidents: Past Incidents
+  pastIncidentsResolved: Past incidents have been resolved.
+  allSystemsOperational: All systems operational
+  incidentReport: Incident Report
+  liveStatus: Live Status
+  overallUptime: overall uptime
+  overallUptime24Hours: 24-hour uptime
+  overallUptime7Days: 7-day uptime

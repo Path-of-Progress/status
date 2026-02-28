@@ -4,10 +4,14 @@ repo: status
 sites:
   - name: Path of Progress
     url: https://app.pathofprogress.ca/api/health
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; PathOfProgress-StatusMonitor/1.0; +https://path-of-progress.github.io/status)"
     expectedStatusCodes:
       - 200
   - name: Website
     url: https://www.pathofprogress.ca
+    headers:
+      - "User-Agent: Mozilla/5.0 (compatible; PathOfProgress-StatusMonitor/1.0; +https://path-of-progress.github.io/status)"
     expectedStatusCodes:
       - 200
       - 301

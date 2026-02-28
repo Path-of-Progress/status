@@ -1,7 +1,7 @@
 [
   {
     "name": "Path of Progress",
-    "url": "https://app.pathofprogress.ca",
+    "url": "https://app.pathofprogress.ca/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/app.pathofprogress.ca.ico",
     "slug": "path-of-progress",
     "status": "down",
@@ -10,31 +10,31 @@
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
-    "time": 116,
-    "timeDay": 116,
-    "timeWeek": 116,
-    "timeMonth": 116,
-    "timeYear": 116,
+    "time": 118,
+    "timeDay": 118,
+    "timeWeek": 118,
+    "timeMonth": 118,
+    "timeYear": 118,
     "dailyMinutesDown": {
-      "2026-02-28": 66
+      "2026-02-28": 99
     }
   },
   {
-    "name": "API",
-    "url": "https://app.pathofprogress.ca/api/health",
-    "icon": "https://icons.duckduckgo.com/ip3/app.pathofprogress.ca.ico",
-    "slug": "api",
+    "name": "Website",
+    "url": "https://www.pathofprogress.ca",
+    "icon": "https://icons.duckduckgo.com/ip3/www.pathofprogress.ca.ico",
+    "slug": "website",
     "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 21,
-    "timeDay": 21,
-    "timeWeek": 21,
-    "timeMonth": 21,
-    "timeYear": 21,
+    "uptime": "26.36%",
+    "uptimeDay": "26.36%",
+    "uptimeWeek": "26.36%",
+    "uptimeMonth": "26.36%",
+    "uptimeYear": "26.36%",
+    "time": 133,
+    "timeDay": 133,
+    "timeWeek": 133,
+    "timeMonth": 133,
+    "timeYear": 133,
     "dailyMinutesDown": {
       "2026-02-28": 0
     }

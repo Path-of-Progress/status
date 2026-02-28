@@ -1,0 +1,89 @@
+:root {
+  /* Base - Aged Parchment */
+  --body-background-color: #e8dcc8;
+  --body-text-color: #4a3728;
+
+  /* Cards - Vellum */
+  --card-background-color: #f5edd8;
+  --card-border-color: #c9b79c;
+
+  /* Nav - Dark Oak */
+  --nav-background-color: #3d2e1e;
+  --nav-border-bottom-color: #5a4230;
+  --nav-current-border-bottom-color: #d4af37;
+
+  /* Status indicators - PROMINENT */
+  --up-border-left-color: #2e8b57;
+  --up-background-color: #d4edda;
+
+  --down-border-left-color: #c0392b;
+  --down-background-color: #f8d7da;
+
+  --degraded-border-left-color: #d4af37;
+  --degraded-background-color: #fff3cd;
+
+  /* Tags */
+  --tag-color: #f5edd8;
+  --tag-up-background-color: #2e8b57;
+  --tag-down-background-color: #c0392b;
+  --tag-degraded-background-color: #d4a017;
+
+  /* Change indicator */
+  --change-background-color: #d4af37;
+
+  /* Buttons - Royal Blue */
+  --error-button-border-color: #2c4a7c;
+  --error-button-background-color: #3b5e99;
+  --error-button-color: #f5edd8;
+  --submit-button-border-color: #2c4a7c;
+  --submit-button-background-color: #3b5e99;
+  --submit-button-color: #f5edd8;
+
+  /* Graphs */
+  --graph-opacity: 1;
+  --graph-filter: sepia(20%) saturate(80%);
+}
+
+/* Nav styling */
+nav {
+  font-family: Georgia, 'Times New Roman', serif !important;
+}
+
+nav a {
+  color: #f5edd8 !important;
+}
+
+nav a:hover {
+  color: #d4af37 !important;
+}
+
+/* Make the intro title gold */
+h1 strong {
+  color: #8b6914 !important;
+}
+
+/* Status cards - make entire card colored */
+article {
+  border-left-width: 6px !important;
+  border-radius: 6px !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+article:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(74, 55, 40, 0.15);
+}
+
+/* Links in cards */
+article a {
+  color: #3b5e99 !important;
+}
+
+article a:hover {
+  color: #d4af37 !important;
+}
+
+/* Footer link styling */
+footer a {
+  color: #8b6914 !important;
+}

@@ -8,6 +8,7 @@ sites:
       - "User-Agent: Mozilla/5.0 (compatible; PathOfProgress-StatusMonitor/1.0; +https://path-of-progress.github.io/status)"
     expectedStatusCodes:
       - 200
+    verbose: true
   - name: Website
     url: https://www.pathofprogress.ca
     headers:
@@ -15,6 +16,7 @@ sites:
     expectedStatusCodes:
       - 200
       - 301
+    verbose: true
 
 status-website:
   baseUrl: /status

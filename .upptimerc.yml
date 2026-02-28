@@ -3,13 +3,14 @@ repo: status
 
 sites:
   - name: Path of Progress
-    url: https://app.pathofprogress.ca
-    expectedStatusCodes:
-      - 200
-  - name: API
     url: https://app.pathofprogress.ca/api/health
     expectedStatusCodes:
       - 200
+  - name: Website
+    url: https://www.pathofprogress.ca
+    expectedStatusCodes:
+      - 200
+      - 301
 
 status-website:
   baseUrl: /status

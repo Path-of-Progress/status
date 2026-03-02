@@ -4,19 +4,19 @@
     "url": "https://app.pathofprogress.ca/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/app.pathofprogress.ca.ico",
     "slug": "path-of-progress",
-    "status": "down",
-    "uptime": "92.86%",
-    "uptimeDay": "91.16%",
-    "uptimeWeek": "92.86%",
-    "uptimeMonth": "92.86%",
-    "uptimeYear": "92.86%",
-    "time": 241,
-    "timeDay": 282,
-    "timeWeek": 241,
-    "timeMonth": 241,
-    "timeYear": 241,
+    "status": "up",
+    "uptime": "92.58%",
+    "uptimeDay": "90.78%",
+    "uptimeWeek": "92.58%",
+    "uptimeMonth": "92.58%",
+    "uptimeYear": "92.58%",
+    "time": 250,
+    "timeDay": 317,
+    "timeWeek": 250,
+    "timeMonth": 250,
+    "timeYear": 250,
     "dailyMinutesDown": {
-      "2026-03-02": 127
+      "2026-03-02": 133
     }
   },
   {

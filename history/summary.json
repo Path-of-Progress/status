@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.pathofprogress.ca.ico",
     "slug": "path-of-progress",
     "status": "up",
-    "uptime": "97.15%",
+    "uptime": "97.83%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "97.15%",
-    "uptimeMonth": "97.15%",
-    "uptimeYear": "97.15%",
-    "time": 266,
-    "timeDay": 372,
-    "timeWeek": 266,
-    "timeMonth": 266,
-    "timeYear": 266,
+    "uptimeWeek": "97.83%",
+    "uptimeMonth": "97.83%",
+    "uptimeYear": "97.83%",
+    "time": 273,
+    "timeDay": 401,
+    "timeWeek": 273,
+    "timeMonth": 273,
+    "timeYear": 273,
     "dailyMinutesDown": {
       "2026-03-02": 133
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 141,
-    "timeDay": 160,
-    "timeWeek": 141,
-    "timeMonth": 141,
-    "timeYear": 141,
+    "time": 142,
+    "timeDay": 161,
+    "timeWeek": 142,
+    "timeMonth": 142,
+    "timeYear": 142,
     "dailyMinutesDown": {}
   }
 ]
